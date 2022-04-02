@@ -1,1 +1,25 @@
-This is a test
+To add the esp32 library to the Arduino IDE, copy the stable release link into
+Arduino's preferences tab
+
+Note: Don't "apt install arduino", install it from here: 
+https://www.arduino.cc/en/software
+
+You'll find the stable release link on this webpage
+
+https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
+
+Then install esp32 by espressif systems using the boards manager
+
+Then sudo apt install python-is-python3 to get rid of the python error
+
+You also need to install esptool using python's pip
+
+sudo apt install python3-pip
+sudo python3 pip install esptool
+
+On some models you need to hold the boot or equivalent button, but the 
+esp32 pico-d4 does this automatically
+
+
+
+
